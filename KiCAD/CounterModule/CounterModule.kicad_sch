@@ -1,0 +1,728 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5d779eab-b9e2-4cc8-82fe-737a95079cea")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 141.605 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26a1d19b-c166-4d97-b7b4-9520e679e99c")
+	)
+	(junction
+		(at 127 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34b3f31f-6ece-4ea4-b8f2-4f73ab4a2726")
+	)
+	(junction
+		(at 105.41 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4535bf93-9668-4a06-a2c0-859217c5a323")
+	)
+	(junction
+		(at 153.67 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7cd4cb-3b0f-40b3-a0ce-c586d2814538")
+	)
+	(junction
+		(at 81.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c2cd0c4-5a71-4606-a8d5-b314ee353ac8")
+	)
+	(junction
+		(at 92.71 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75695a50-9169-4101-92ab-cb04da2ce60c")
+	)
+	(junction
+		(at 104.14 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a64a08e-013e-4a6b-825f-1be3ab79ac8f")
+	)
+	(junction
+		(at 116.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9accbe6-d1c0-41a0-9621-9f221c5a9fd8")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c393d0-e483-4b7f-9db8-9fbeee0f9e98")
+	)
+	(wire
+		(pts
+			(xy 141.605 71.12) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad91fa2-1dca-4503-8263-638a9c3ae958")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aee16c4-0898-4f84-b39d-2ecba0069dd7")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 104.14 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146f70cc-f2aa-44dd-ba14-8f8d04106060")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2106b429-ed8d-4815-b0d1-a4227b08dff0")
+	)
+	(wire
+		(pts
+			(xy 168.91 80.01) (xy 173.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dbf927-693d-43e2-ba62-2b5cfefefc43")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3a8fe2-2363-4427-840e-a67129dd81fb")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 133.985 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54391278-07c6-4246-87fa-aa93df356bd6")
+	)
+	(wire
+		(pts
+			(xy 104.14 41.91) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cf6e22-74ca-47a9-84ba-fbfb4f66fffb")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 153.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584b4f96-e74b-4793-b069-3c082f88537a")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b210660-b9e2-4883-8dad-3e1dcb0bbe02")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7d5b5c-66e2-4587-888d-977e08a592ed")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dea5d59-137b-4f48-9654-efe36ae8b80b")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 92.71 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fd1213-7da0-4b52-b8af-407483929b34")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 66.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75da9a3c-ed2c-4a8a-973c-45ef0f367e3e")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fdd6c4e-4919-46ec-9537-7240e6bc8651")
+	)
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 153.67 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8387efd5-a6e2-49cd-8ac8-64d8669cf89a")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 109.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aef579a-756d-4eb3-bae6-c8cae7a6c18e")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed3105d-720a-4331-8a05-e3f2b1ca1275")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f01574-10c8-4b03-b07c-b4fce409575d")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 156.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b721fd7-c106-4d7a-80da-45157041deb3")
+	)
+	(wire
+		(pts
+			(xy 92.71 71.12) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55d9eee-86c6-43e4-8df9-4807848cd634")
+	)
+	(wire
+		(pts
+			(xy 141.605 66.04) (xy 141.605 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6167192-a8a5-4189-b3d1-6343713460c8")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b7ab5f-0df0-489d-8fbf-9ddac879c61f")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 132.08 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5474ab2-59b8-4aa4-a561-e7d3199e80a7")
+	)
+	(wire
+		(pts
+			(xy 81.28 57.15) (xy 81.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b892a4b6-d757-4754-946f-da30af2543f9")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 156.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae7387b-5f92-4b8d-9d30-1957856435b6")
+	)
+	(wire
+		(pts
+			(xy 153.67 57.15) (xy 153.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce63f98a-771a-4eba-978b-e17d90944566")
+	)
+	(wire
+		(pts
+			(xy 81.28 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0749748-e07d-4d2d-913b-b901d3901ead")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fd09ac-9ccb-4247-a711-309446bbdc5a")
+	)
+	(wire
+		(pts
+			(xy 141.605 71.12) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87b3cb5-e7df-4fb2-be83-ae1007d898c0")
+	)
+	(sheet
+		(at 156.21 76.2)
+		(size 12.7 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17ade4ed-ed3e-4f88-89c8-67077f5189d0")
+		(property "Sheetname" "CARRY"
+			(at 156.21 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "carry.kicad_sch"
+			(at 156.21 85.0396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CY" output
+			(at 168.91 80.01 0)
+			(uuid "3190f8a5-4e86-4621-b51c-3b8390f2bf47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INA" input
+			(at 156.21 78.74 180)
+			(uuid "a2337de2-7885-4993-9fe5-a4c106f8b620")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INB" input
+			(at 156.21 81.28 180)
+			(uuid "f5069ff8-50a5-4617-b0e1-9ae69c24a1bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.985 55.245)
+		(size 15.875 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5917833d-25a7-41e2-949a-17b650c77915")
+		(property "Sheetname" "FlipFlop3"
+			(at 133.858 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FlipFlop.kicad_sch"
+			(at 133.604 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 141.605 66.04 270)
+			(uuid "c2e0a3e8-0f87-4802-8bd7-8499f8caf9df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" output
+			(at 149.86 57.15 0)
+			(uuid "b715a4ef-9052-4dd6-8109-3b02af03faa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 133.985 57.15 180)
+			(uuid "a9a65e80-be9e-4518-9a83-041bb0398a0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 85.09 55.245)
+		(size 15.24 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e0e63ac-d501-4c0b-9e19-28dd9d0b904b")
+		(property "Sheetname" "FlipFlop1"
+			(at 84.963 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FlipFlop.kicad_sch"
+			(at 84.709 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 92.71 66.04 270)
+			(uuid "b89cd6ce-807a-423b-b6ff-dc931350ed5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" output
+			(at 100.33 57.15 0)
+			(uuid "7ae8e3dc-fffc-4a00-99a4-1a0fa7969219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 85.09 57.15 180)
+			(uuid "d8204dfc-fb1f-4bc1-889d-abd9fad29aa3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 55.245)
+		(size 15.24 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3c49cbd-4c62-4f44-9f66-ac7bba444cd3")
+		(property "Sheetname" "FlipFlop2"
+			(at 109.093 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FlipFlop.kicad_sch"
+			(at 108.839 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 116.84 66.04 270)
+			(uuid "788682fe-1c90-4e60-bca9-113cc366d86a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" output
+			(at 124.46 57.15 0)
+			(uuid "b88c03a2-a047-4c1c-93f8-3773d8d4029f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 109.22 57.15 180)
+			(uuid "4282ce95-ace9-44ab-a63d-0837b542c94c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 55.245)
+		(size 15.24 10.795)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2831946-94f7-4ff9-becc-d8df18edfaf8")
+		(property "Sheetname" "FlipFlop0"
+			(at 58.293 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FlipFlop.kicad_sch"
+			(at 58.039 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" input
+			(at 66.04 66.04 270)
+			(uuid "b38b6b05-2e7f-4053-9fb8-792af5a59e72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" output
+			(at 73.66 57.15 0)
+			(uuid "4365d1cb-7f5d-4ec6-8093-e030d3e611be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" input
+			(at 58.42 57.15 180)
+			(uuid "260ce0b5-3319-4c68-b3f6-be1afd1633b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
