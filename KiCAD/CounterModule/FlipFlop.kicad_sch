@@ -762,6 +762,12 @@
 		(uuid "31cdc8c5-916d-417e-a78d-b547022ca887")
 	)
 	(junction
+		(at 152.4 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36643edd-d01c-4c5f-9a4b-9626ae8487c3")
+	)
+	(junction
 		(at 130.81 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -796,6 +802,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac846b23-cb10-4d4b-ab48-e5aa9a9bef55")
+	)
+	(junction
+		(at 152.4 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c34842fb-23b3-4de0-ac26-3c38e8a381cb")
 	)
 	(junction
 		(at 99.06 71.12)
@@ -852,6 +864,16 @@
 			(type default)
 		)
 		(uuid "0c6a734c-ea8c-4551-a314-b3bde99e6859")
+	)
+	(wire
+		(pts
+			(xy 173.99 107.95) (xy 152.4 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dc3822-b0a6-4092-a9f6-ca9f95ea2f8b")
 	)
 	(wire
 		(pts
@@ -965,6 +987,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 54.61) (xy 152.4 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5245c16c-17d9-4f52-98df-be677bdea3ba")
+	)
+	(wire
+		(pts
 			(xy 114.3 95.25) (xy 114.3 97.79)
 		)
 		(stroke
@@ -1012,6 +1044,16 @@
 			(type default)
 		)
 		(uuid "6c5b4fe5-c211-4c15-9895-9207446ac1f0")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 173.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a7d273-8e67-4829-901e-93672118e8ac")
 	)
 	(wire
 		(pts
@@ -1132,6 +1174,16 @@
 			(type default)
 		)
 		(uuid "a46de8a7-ee59-4588-bb4a-de4cd2b09097")
+	)
+	(wire
+		(pts
+			(xy 173.99 88.9) (xy 173.99 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c4e4ed-d774-4e28-8a41-b91852780d9d")
 	)
 	(wire
 		(pts
@@ -1441,16 +1493,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "6444c422-bbd1-4cce-bf7c-f05bef7d497a")
+			(uuid "e4153918-f0ca-436e-b5d5-5851fd079a27")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "#PWR019")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -1541,16 +1605,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa28af64-e0d3-472b-889f-42e059b4dc99")
+			(uuid "699e2a58-05d7-45aa-920e-d12bf60c50d1")
 		)
 		(pin "3"
-			(uuid "f8e912a9-5f36-48a8-b284-b99a94aa7338")
+			(uuid "5177b967-1ee4-40c0-a038-d4fc70280f15")
 		)
 		(pin "1"
-			(uuid "a91d3605-1d5d-469e-9bcc-43477c04e569")
+			(uuid "1a2d0467-1465-4c4e-847f-2bbcd7aadef0")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "Q38")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "Q16")
 					(unit 1)
@@ -1559,12 +1627,112 @@
 					(reference "Q8")
 					(unit 1)
 				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "Q34")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "Q30")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
 					(reference "Q12")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/e2831946-94f7-4ff9-becc-d8df18edfaf8"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 85.09 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd456c6-024f-4b97-b429-c2b08d4ed13d")
+		(property "Reference" "C13"
+			(at 172.212 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 172.466 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 173.0248 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86ea9bc9-5ead-4801-84c5-cda27e246297")
+		)
+		(pin "1"
+			(uuid "eddf5b95-8668-43d0-a0c3-a2e289532d35")
+		)
+		(instances
+			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/e2831946-94f7-4ff9-becc-d8df18edfaf8"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -1625,16 +1793,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad2a6033-1269-4626-9c4d-3dbe80a1ed5d")
+			(uuid "88a16b19-ec6b-473b-9e02-1e322d8fd8b0")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "#PWR020")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "#PWR08")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "#PWR04")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -1724,22 +1904,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "ed1a3dbc-c787-4abf-895a-4861ceb8567e")
+			(uuid "f43473c4-f3fd-4529-895b-5cadbe7d719d")
 		)
 		(pin "3"
-			(uuid "7c42449a-2807-4afe-aed8-9a4120b7b9ee")
+			(uuid "7555211d-7321-4890-8452-75176e10afa0")
 		)
 		(pin "1"
-			(uuid "b3137b49-2d9f-401e-a180-2d42f5c4c583")
+			(uuid "49dddb4d-31aa-4ce9-a04c-10922c6c9aed")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "Q36")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "Q14")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "Q6")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "Q28")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -1830,22 +2022,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "f9065a42-b5ac-4985-b3c6-cfae55eca9ee")
+			(uuid "044ab288-a8ad-43c3-838c-38431e4bad62")
 		)
 		(pin "3"
-			(uuid "7d725cb9-dd7a-4bd9-8b36-dc35b39b27eb")
+			(uuid "bb51127a-8a2a-448d-991b-0a59e9e900a4")
 		)
 		(pin "1"
-			(uuid "0afe530d-695e-4432-965a-aa5f5ad7fe3c")
+			(uuid "5fbd1c87-c6ae-4b6e-a2c4-f37812b309c8")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "Q35")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "Q13")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "Q5")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "Q31")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "Q27")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -1912,19 +2116,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7b05ebb-55fa-4b6f-816c-4ab00d151e6f")
+			(uuid "4643c5ee-6a1f-4593-bdf3-794840fc61fb")
 		)
 		(pin "1"
-			(uuid "5ffa1f59-2f68-4f33-a5ef-4b289356ee31")
+			(uuid "a871728f-1601-4929-86d4-bcfd0a1db2b9")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "C22")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "C11")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -1991,19 +2207,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "c9f91265-e43d-49ef-bc8b-8a85c9ffa3ed")
+			(uuid "9e7bd485-a916-4b58-8f9f-3beaac90e03c")
 		)
 		(pin "1"
-			(uuid "d37836bc-22dc-4ed8-aefc-63bbc57ea9ef")
+			(uuid "656856f4-bffe-4000-8983-4fd622836e30")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R67")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R25")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R9")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R59")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2074,19 +2302,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ffa2a43-36b9-443b-88e0-e0fefb944ad8")
+			(uuid "2addbcbb-a38e-414e-8a93-42bec36e8313")
 		)
 		(pin "2"
-			(uuid "89d595c7-3935-45c3-af50-6d627888ee23")
+			(uuid "e6ef34ea-3afd-4001-a5e9-920d5f0d4405")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R72")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R30")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R14")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2157,19 +2397,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "88b1b9be-10ed-4f2a-8f1f-5c77f32353a8")
+			(uuid "33fe19fb-b820-49bc-b51a-e3e2002a9069")
 		)
 		(pin "2"
-			(uuid "e67f0d50-1891-48a4-befc-3e887bf6c309")
+			(uuid "b18d145d-7f11-4721-a0c5-5ba75be18bed")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R73")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R32")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R16")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2236,19 +2488,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "dc1ce35f-a44d-4490-a4de-f5ad2408ef9b")
+			(uuid "47d0f0e9-4292-46c2-aae1-9015efd5010b")
 		)
 		(pin "1"
-			(uuid "a95ac113-5c01-45da-8564-3fa5d619965c")
+			(uuid "00520e34-8e6e-4468-bb35-ab250e3fe8b2")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R69")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R27")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R11")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2339,22 +2603,34 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f83978c-1f9e-4a92-a071-bf62c17ec091")
+			(uuid "4ddbf3cb-dd37-4605-b775-48fdc76d4d48")
 		)
 		(pin "3"
-			(uuid "387cd19c-b60b-4129-a4a5-2cf6f9950cc4")
+			(uuid "12eb065f-936e-49d3-a1a3-89454c624b11")
 		)
 		(pin "1"
-			(uuid "3c6b13d9-706f-48c9-bf18-73cbe02621e0")
+			(uuid "fabadffd-5e21-422a-94f2-ceb2baa21533")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "Q37")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "Q15")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "Q7")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "Q29")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2421,19 +2697,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f58c033-b432-44ed-a242-f4f84cc1227d")
+			(uuid "976992ae-cb86-454d-87bd-68e96b776888")
 		)
 		(pin "1"
-			(uuid "a809e0b0-060e-4ca4-bedd-1a3d5861c9d3")
+			(uuid "0388310d-8e03-481d-a763-74cc431aaf23")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R68")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R31")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R15")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2503,19 +2791,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "39b91579-37fc-4199-8637-2e0ca81ea7c8")
+			(uuid "57224d6d-e5b6-49ec-a042-c05c833559b7")
 		)
 		(pin "2"
-			(uuid "6ba9dbb8-36f3-4ccb-b1e4-0ee35eb6c25c")
+			(uuid "66dc553a-ff79-481f-b848-4984d140518c")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R71")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R26")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R10")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2583,19 +2883,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2cefcbc-8649-435e-a18d-a187074f8212")
+			(uuid "cf93fb01-af5e-4c73-a7c9-37fb035393f1")
 		)
 		(pin "1"
-			(uuid "6b56b432-d567-4518-a5ef-1535b13be73e")
+			(uuid "2cf149e3-2264-4141-8394-bc6896b0876e")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "C23")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "C12")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "C20")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2663,19 +2975,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "70a8ccfc-e4d1-40f5-aa7d-954da3c722f2")
+			(uuid "ad0ddec8-cc06-44cc-8f93-ed83ad8577b8")
 		)
 		(pin "1"
-			(uuid "a71cabf1-ba88-4977-897d-cb277ee44020")
+			(uuid "8080af54-d723-4ae5-a43a-550f8b14f039")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "C24")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "C10")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "C4")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2746,19 +3070,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "c87c1152-9863-4429-9b4e-7b08abbcd731")
+			(uuid "62542583-9a73-4cd1-a65c-1241eb3f6b74")
 		)
 		(pin "2"
-			(uuid "2d8cde22-6eb2-424b-aa44-a27eb25bfdd7")
+			(uuid "bf5b8001-9795-44bb-a3b5-371881b76ee7")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R74")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R28")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
@@ -2826,19 +3162,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "eec5bdfe-c832-4a17-80a8-38f11d3832ab")
+			(uuid "3b2f5c4b-31f5-4309-a5c4-737b35830b37")
 		)
 		(pin "1"
-			(uuid "8503d2f2-9eae-4ff3-bf1e-83e934406b10")
+			(uuid "8611d525-eed8-4d92-9739-c5057468c5de")
 		)
 		(instances
 			(project "CounterModule"
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/0781ce0f-5057-43fb-bd0a-ff6cd2fca0c5"
+					(reference "R70")
+					(unit 1)
+				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/5917833d-25a7-41e2-949a-17b650c77915"
 					(reference "R29")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/7e0e63ac-d501-4c0b-9e19-28dd9d0b904b"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/94ef1531-db97-4715-8f5f-d9089e63e7e8"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/c73e5521-1a59-4360-83a3-bc8b8f60f3d3"
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/5d779eab-b9e2-4cc8-82fe-737a95079cea/d3c49cbd-4c62-4f44-9f66-ac7bba444cd3"
