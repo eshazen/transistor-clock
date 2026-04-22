@@ -1,24 +1,42 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# KiCad 10 Recommended Gitignore
 
-*.log
-*.raw
+.history/
 
-# Temporary files
+# --- Temporary & Backup Files ---
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
 *~
-~*
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
 
-*.o
-*.plt
+# --- Local User Settings ---
+# These contain local paths and window positions
+fp-info-cache
+*.kicad_prl
+
+# --- Derived/Output Files ---
+# Optional: Ignore these if you want to regenerate them from source
+*.net
+*.xml
+*.csv
+*.job
+*.gbr
+*.drl
+*.pdf
+# Documentation and Gerbers are often better managed via Releases
+/plots/
+/gerbers/
+
+# --- Project Specific ---
+# Ignore the local project-specific library table if it contains absolute paths
+# fp-lib-table
+# sym-lib-table
+
 
 _autosave-*
 \#auto_saved_files\#
