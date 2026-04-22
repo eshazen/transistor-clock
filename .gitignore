@@ -3,6 +3,8 @@
 .history/
 
 # --- Temporary & Backup Files ---
+*.log
+*.raw
 *.000
 *.bak
 *.bck
